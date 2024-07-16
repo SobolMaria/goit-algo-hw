@@ -45,4 +45,3 @@ while True:
         print("Enter a number!")
 
 print(get_numbers_ticket(minimum, maximum, quantity))
-
