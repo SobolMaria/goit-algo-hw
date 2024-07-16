@@ -12,7 +12,6 @@ while True:
     your_date = input("Enter data in format 'РРРР-ММ-ДД': ")
     try:
         datetime_date = datetime.strptime(your_date, "%Y-%m-%d").date
-        print(datetime_date)
         if datetime_date:
             break
     except:
